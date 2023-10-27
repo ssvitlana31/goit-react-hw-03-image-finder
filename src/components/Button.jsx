@@ -12,6 +12,7 @@ export const Button = ({ loading, onClick }) => {
 
 Button.propTypes = {
   onClick: PropTypes.func.isRequired,
+  loading: PropTypes.bool.isRequired,
 };
 
 export const StyledButton = styled.button`
